@@ -1,0 +1,36 @@
+Gemma - Opensource model from google, family of lightweight SOA models (2B, 7B, more) - Available in Huggig face, Kaggle and can be downloaded locally
+
+CodeGemma - Code assistance
+
+PaliGemma - Open vision language model
+
+
+
+
+Groq API- Fast Inferencing engine, fast inferencing- Real time application, uses LPU (Language Processing unit) system, faster than GPU and CPU as solves issue with compute density and Memory bandwidth.
+
+
+
+Project Flow:
+
+Create API key from Groq site (For Models), and Google AI (For Embeddings)
+
+Establish new environment for project in VS code with recent version of python
+
+create .env file to store both the APIs keys in son=me variables
+
+create a .txt file with listing all the libraries needed to work further, and then in terminal execute the command 
+- pip install -r xyz.txt      (This will install all the files)
+
+libraries required are:
+faiss-cpu      -(Vector DB created by Facebook)
+groq
+langchain-groq
+PyPDF2 - (To read pdfs)
+langchain_google_genai
+langchain
+streamlit - (for frontend)
+langchain_community
+python-dotenv
+pypdf
+
